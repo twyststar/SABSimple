@@ -45,8 +45,17 @@ body {
   background-color: #0a3170;
   border-color: #0a3170;
 }
+
+a.nav-link:hover {
+  text-decoration: underline;
+  color: #0a3170;
+}
 /* Contact Us Specific */
 .form-check-inline {
   width: 100%;
   justify-content: space-evenly;
+}
+
+.checkbox label{
+  padding-left: 0.4em;
 }
