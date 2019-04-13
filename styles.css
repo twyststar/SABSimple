@@ -34,3 +34,19 @@ body {
   margin-top: 0px;
   text-align: center;
 }
+
+.contentPadded {
+  padding: 3% 5%;
+  margin-top: 0px;
+  text-align: center;
+}
+/* Element Styles */
+.btn-primary {
+  background-color: #0a3170;
+  border-color: #0a3170;
+}
+/* Contact Us Specific */
+.form-check-inline {
+  width: 100%;
+  justify-content: space-evenly;
+}
