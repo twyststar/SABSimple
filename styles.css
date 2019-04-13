@@ -9,7 +9,8 @@ body {
   background-color: #0a3170;
   height: 10em;
   padding: 2%;
-
+  margin-bottom: 0;
+  border-radius: 0;
 }
 
 .logo {
@@ -17,13 +18,19 @@ body {
   width: auto;
 }
 
-.introImg {
+.navbar {
+  background-color: #e9ecef;
+  justify-content: flex-end;
+}
+
+.introImg img {
   position: relative;
   width: 100%;
   height: auto;
-  left: 0;
+  margin: auto;
 }
 
 .content {
   margin-top: 0px;
+  text-align: center;
 }
