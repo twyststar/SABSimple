@@ -1,0 +1,29 @@
+body {
+  background-color: #e9ecef;
+}
+
+.jumbotron {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #0a3170;
+  height: 10em;
+  padding: 2%;
+
+}
+
+.logo {
+  height: 8em;
+  width: auto;
+}
+
+.introImg {
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 0;
+}
+
+.content {
+  margin-top: 0px;
+}
