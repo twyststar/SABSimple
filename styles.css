@@ -28,6 +28,7 @@ body {
   width: 100%;
   height: auto;
   margin: auto;
+  margin-bottom: 3%;
 }
 
 .content {
@@ -40,16 +41,23 @@ body {
   margin-top: 0px;
   text-align: center;
 }
+
+
 /* Element Styles */
 .btn-primary {
   background-color: #0a3170;
   border-color: #0a3170;
+}
+h1, h2, h2,
+.card-title {
+  color: #0a3170;
 }
 
 a.nav-link:hover {
   text-decoration: underline;
   color: #0a3170;
 }
+
 /* Contact Us Specific */
 .form-check-inline {
   width: 100%;
@@ -58,4 +66,12 @@ a.nav-link:hover {
 
 .checkbox label{
   padding-left: 0.4em;
+}
+
+.homeMain {
+  padding: 2%;
+}
+
+.homeMain .card {
+  margin-bottom: 2%;
 }
