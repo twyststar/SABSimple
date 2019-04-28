@@ -149,11 +149,31 @@ a.nav-link:hover {
   padding-left: 1%;
   padding-top: 1%;
 }
+
 .headerScroll .navbar-nav .nav-link {
   color: white;
 }
+
 .scrollContent {
   margin-top: 3em;
+}
+
+.headerScroll .fas.fa-bars {
+  color: white;
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: .25rem;
+}
+
+.fas.fa-bars:hover {
+  color: #eac554;
+}
+
+.fa-angle-double-down {
+  color: #eac554;
 }
 /* Contact Us Specific */
 .form-check-inline {
@@ -177,4 +197,15 @@ a.nav-link:hover {
   justify-content: flex-end;
   right: 8%;
     top: 22%;
+}
+
+@media screen and (max-width: 550px) {
+  .navbar-brand img {
+    width: 80vw;
+    position: inherit;
+  }
+  .countryCard,
+  .countryCardImg {
+    position: inherit;
+  }
 }
