@@ -187,7 +187,8 @@ a.nav-link:hover {
   width: auto;
   justify-content: flex-end;
   right: 8%;
-    top: 22%;
+  top: 22%;
+  transition: all .4s ease;
 }
 
 .countryCardImg:hover {
