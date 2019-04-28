@@ -7,7 +7,7 @@ $(window).scroll(function() {
     $(".headerScroll").slideDown();
   } else {
     // $(".headerStandard").slideDown();
-    $(".headerScroll").slideUp();
+    $(".headerScroll").hide();
   }
 });
 
