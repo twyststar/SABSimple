@@ -11,11 +11,11 @@ $(window).scroll(function() {
   }
 });
 
-$('.fas').hover(function(){
-    $(this).removeClass("fa-bars");
-    $(this).addClass("fa-angle-double-down");
-  }, function() {
-    $(this).addClass("fa-bars");
-    $(this).removeClass("fa-angle-double-down");
-  }
-)
+// $('.fas').hover(function(){
+//     $(this).removeClass("fa-bars");
+//     $(this).addClass("fa-angle-double-down");
+//   }, function() {
+//     $(this).addClass("fa-bars");
+//     $(this).removeClass("fa-angle-double-down");
+//   }
+// )

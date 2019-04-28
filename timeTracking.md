@@ -20,11 +20,11 @@
   [x] about
   [x] contact
   [x] ca
-  [ ] nz
-  [ ] usa
-[ ] make active link in small header noticeable
+  [x] nz
+  [x] usa
+[x] make active link in small header noticeable
 [ ] add full page for why study abroad
 [ ] form!
 [ ] db
 [ ] format images
-[ ] 
+[ ] hover/links on home location images and headers
