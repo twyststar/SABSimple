@@ -54,7 +54,7 @@ body {
 }
 
 .content {
-  text-align: center;
+  
 }
 
 .contentPadded {
@@ -90,6 +90,7 @@ a.nav-link:hover {
 }
 
 .slogan {
+  text-align: center;
   background-color: #0a3170;
   color: white;
   height: 3em;
@@ -104,16 +105,17 @@ a.nav-link:hover {
 
 .homeArticle {
   width: 100vw;
-  height: 40vw;
+  min-height: 40vw;
   margin-left: 0;
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid #0a3170;
+  text-overflow: hidden;
 }
 
-.articleImg {
+/* .articleImg {
   width: 50%;
-}
+} */
 .articleImgOne {
   background-image: url("images/RMISP3.jpeg");
   background-position: center;
@@ -125,6 +127,6 @@ a.nav-link:hover {
   background-size: cover;
 }
 
-.card-body {
+/* .card-body {
   width: 50%;
-}
+} */
