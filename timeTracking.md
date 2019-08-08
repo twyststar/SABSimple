@@ -29,6 +29,7 @@
 [x] make active link in small header noticeable
 [x] add full page for why study abroad
 [ ] content for above full page
+[ ] add 'captions' to other homepage images (see NZ)
 [ ] footer with social links
 [ ] form!
 [ ] db

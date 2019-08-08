@@ -194,6 +194,24 @@ a.nav-link:hover {
 .countryCardImg:hover {
   transform: scale(1.5);
 }
+
+/* studying abroad page specific */
+.why-articles {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f1f2f3;
+}
+.why-articles div {
+  /* border-bottom: 1px solid #a7a9aa; */
+  flex-direction: column;
+  text-align: center;
+  padding: 2% 5%;
+}
+.article-title {
+  padding-top: 2%;
+  display: block;
+  justify-self: center;
+}
 /* Responsive styles/media queries not handled by Bootstrap/Flex */
 @media screen and (max-width: 550px) {
   .navbar-brand img {
