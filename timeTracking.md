@@ -17,6 +17,7 @@
 ## Notes/ToDo
 
 * Look into fade effect for the lower parts of the front page mini articles
+* Hover effect on pic links on index is odd on mobile
 
 [ ] copy header nav to all pages
   [x] home
