@@ -200,11 +200,11 @@ a.nav-link:hover {
   display: flex;
   flex-direction: row;
 }
-.countryCard p {
+/* .countryCard p {
   position: relative;
   display: flex;
   max-width: 70%;
-}
+} */
 .countryCardImg {
   display: flex;
   height: 8em;
@@ -254,6 +254,28 @@ a.nav-link:hover {
   background-color: white;
 }
 
+/* US specific */
+
+.schoolIcon {
+  height: 50px;
+  width: auto;
+  margin-left: 48%;
+}
+
+.schoolAccordion {
+  padding: 1% 4%;
+  border: 1px solid #0a3170;
+  color: #0a3170;
+  font-family: LeagueSpartan;
+  text-transform: capitalize;
+  font-size: 1.2em;
+}
+
+.schoolAccordion:hover {
+  border: 1px solid #0a3170;
+  background-color: #0a3170;
+  color: white;
+}
 
 
 /* Responsive styles/media queries not handled by Bootstrap/Flex */

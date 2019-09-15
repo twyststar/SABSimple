@@ -11,11 +11,7 @@ $(window).scroll(function() {
   }
 });
 
-// $('.fas').hover(function(){
-//     $(this).removeClass("fa-bars");
-//     $(this).addClass("fa-angle-double-down");
-//   }, function() {
-//     $(this).addClass("fa-bars");
-//     $(this).removeClass("fa-angle-double-down");
-//   }
-// )
+// Learn More accordion button functions
+$(".schoolAccordion").click(function(){
+  alert('This will open a section with more information')
+})
