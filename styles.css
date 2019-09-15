@@ -183,6 +183,8 @@ a.nav-link:hover {
   background-color: #0a3170;
   color: white;
   min-height: 50px;
+  margin-top: 5%;
+  padding: 2% 0;
 }
 /* Contact Us Specific */
 .form-check-inline {
@@ -197,6 +199,11 @@ a.nav-link:hover {
   position: relative;
   display: flex;
   flex-direction: row;
+}
+.countryCard p {
+  position: relative;
+  display: flex;
+  max-width: 70%;
 }
 .countryCardImg {
   display: flex;
