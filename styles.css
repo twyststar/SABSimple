@@ -277,6 +277,35 @@ a.nav-link:hover {
   color: white;
 }
 
+.accordionShow {
+  display: none;
+  padding-top: 2%;
+}
+
+.directLinks button {
+  padding: 1% 4%;
+  font-family: LeagueSpartan;
+  text-transform: capitalize;
+  font-size: 1.2em;
+  border: 1px solid #0a3170;
+  background-color: #0a3170;
+  color: white;
+}
+
+.directLinks button:hover {
+  border: 1px solid #0a3170;
+  color: #0a3170;
+  background-color: white;
+  text-decoration: underline;
+}
+
+.directLinks button a {
+  color: white;
+}
+
+.directLinks button a:hover {
+  color: #007bff;
+}
 /* Canada Tabbed Content */
 
 /* Style the tab */
@@ -284,7 +313,13 @@ a.nav-link:hover {
   overflow: hidden;
   border: 1px solid  #0a3170;
   background-color: #f1f1f1;
-  border-bottom: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab2 {
+  overflow: hidden;
+  background-color: #f1f1f1;
   display: flex;
   justify-content: space-between;
 }
@@ -301,8 +336,20 @@ a.nav-link:hover {
   transition: 0.3s;
 }
 
+.tab2 button {
+  background-color: inherit;
+  width: 100%;
+  /* border: none; */
+  border: 1px solid transparent;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
 /* Change background color of buttons on hover */
-.tab button:hover {
+.tab button:hover,
+.tab2 button:hover {
   background-color: #ddd;
 }
 
@@ -311,6 +358,16 @@ a.nav-link:hover {
   background-color: #0a3170;
   color: white;
   border:1px solid #0a3170;
+  font-weight: bold;
+}
+
+.tab2 button.active2 {
+  background-color: white;
+  /* border-left:1px solid #0a3170; */
+  border-bottom: none;
+  border-top: none;
+  color: #0a3170;
+  font-weight: bold;
 }
 
 .activeBorder {
@@ -318,10 +375,15 @@ a.nav-link:hover {
 }
 
 /* Style the tab content */
-.tabcontent {
+.tabcontent,
+.tabcontent2 {
   display: none;
   padding: 6px 12px;
   /* border-top: none; */
+}
+
+.tabcontent2 {
+  background-color: white;
 }
 
 /* Class to hide USA until we get more schools there */

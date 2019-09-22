@@ -13,7 +13,9 @@ $(window).scroll(function() {
 
 // Learn More accordion button functions
 $(".schoolAccordion").click(function(){
-  alert('This will open a section with more information')
+
+  $(".accordionShow").hide();
+  $(this).parent().next().show();
 })
 
 // Canada Tabbed Content
@@ -21,8 +23,9 @@ $(".schoolAccordion").click(function(){
 function openArea(evt, areaName) {
   // Declare all variables
   var i, tabcontent, tablinks;
-
+  $(".accordionShow").hide();
   // Get all elements with class="tabcontent" and hide them
+  $(".tabcontent").hide();
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
@@ -39,4 +42,27 @@ function openArea(evt, areaName) {
   $("#" + areaName).show().addClass("activeBorder");
   // document.getElementById(areaName).style.display = "block";
   evt.currentTarget.className += " active";
+}
+
+function openSubArea(evt, areaName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+  $(".accordionShow").hide();
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent2");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks2");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active2", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  // document.getElementById(areaName).style.display = "block";
+  $("#" + areaName).show();
+  // document.getElementById(areaName).style.display = "block";
+  evt.currentTarget.className += " active2";
 }
