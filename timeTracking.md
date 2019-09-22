@@ -41,7 +41,6 @@
   * [x] swap images to icons  
   * [ ]add new card images  
 
-
 * [ ] _Canada_  
   * [ ] tabbed layout - main  
   * [ ] tabbed layout - BC  
