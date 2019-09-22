@@ -278,6 +278,11 @@ a.nav-link:hover {
 }
 
 
+/* Class to hide USA until we get more schools there */
+.hideUsa {
+  display: none;
+}
+
 /* Responsive styles/media queries not handled by Bootstrap/Flex */
 @media screen and (max-width: 550px) {
   .navbar-brand img {
