@@ -25,21 +25,21 @@
 * Hover effect on pic links on index is odd on mobile
 
 * [x] copy header nav to all pages  
-  [x] home  
-  [x] about  
-  [x] contact  
-  [x] ca  
-  [x] nz  
-  [x] usa  
-  [x] studyingAbroad  
+  * [x] home  
+  * [x] about  
+  * [x] contact  
+  * [x] ca  
+  * [x] nz  
+  * [x] usa  
+  * [x] studyingAbroad  
 * [x] make active link in small header noticeable  
 
 
 * [x] _USA - HIDE USA FOR NOW_  
-  [x] add school cards/images  
-  [x] ~*fix* school card images~ images not consistent in clarity  
-  [x] swap images to icons  
-  [ ]add new card images  
+  * [x] add school cards/images  
+  * [x] ~*fix* school card images~ images not consistent in clarity  
+  * [x] swap images to icons  
+  * [ ]add new card images  
 
 
 * [ ] _Canada_  
@@ -47,26 +47,26 @@
   * [ ] tabbed layout - BC  
   * [ ] indiv. schools: BC  
     * [ ] Vancouver Island Tab  
-      [ ] Gulf  
-      [ ] Qualicum  
-      [ ] Sooke  
+      * [ ] Gulf  
+      * [ ] Qualicum  
+      * [ ] Sooke  
     * [ ] Vancouver Tab  
-      [ ] Maple Ridge/Pitt Meadows  
-      [ ] Richmond  
-      [ ] Rocky Mountain  
+      * [ ] Maple Ridge/Pitt Meadows  
+      * [ ] Richmond  
+      * [ ] Rocky Mountain  
     * [ ] Burnaby Tab  
     * [ ] Vernon Tab  
   * [ ] Rest of Canada - main tabs  
     * [ ] Alberta Tab  
-      [ ] Medicine Hat SD  
+      * [ ] Medicine Hat SD  
     * [ ] Ontario Tab  
-      [ ] Ottawa Carleton School Board  
+      * [ ] Ottawa Carleton School Board  
     * [ ] Quebec Tab  
-      [ ] Eastern Township  
+      * [ ] Eastern Township  
     * [ ] Newfoundland and Labrador  
-      [ ] Newfoundland and Labrador NISEP  
+      * [ ] Newfoundland and Labrador NISEP  
     * [ ] New Brunswick  
-      [ ] New Brunswick French International Student Program  
+      * [ ] New Brunswick French International Student Program  
 
 * [x] add full page for why study abroad  
 * [ ] content for above full page  
