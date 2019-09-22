@@ -24,7 +24,7 @@
 * Look into fade effect for the lower parts of the front page mini articles
 * Hover effect on pic links on index is odd on mobile
 
-[x] copy header nav to all pages  
+* [x] copy header nav to all pages  
   [x] home  
   [x] about  
   [x] contact  
@@ -32,52 +32,52 @@
   [x] nz  
   [x] usa  
   [x] studyingAbroad  
-[x] make active link in small header noticeable  
+* [x] make active link in small header noticeable  
 
 
-[x] _USA - HIDE USA FOR NOW_  
+* [x] _USA - HIDE USA FOR NOW_  
   [x] add school cards/images  
   [x] ~*fix* school card images~ images not consistent in clarity  
   [x] swap images to icons  
   [ ]add new card images  
 
 
-[ ] _Canada_  
-  [ ] tabbed layout - main  
-  [ ] tabbed layout - BC  
-  [ ] indiv. schools: BC  
-    [ ] Vancouver Island Tab  
+* [ ] _Canada_  
+  * [ ] tabbed layout - main  
+  * [ ] tabbed layout - BC  
+  * [ ] indiv. schools: BC  
+    * [ ] Vancouver Island Tab  
       [ ] Gulf  
       [ ] Qualicum  
       [ ] Sooke  
-    [ ] Vancouver Tab  
+    * [ ] Vancouver Tab  
       [ ] Maple Ridge/Pitt Meadows  
       [ ] Richmond  
       [ ] Rocky Mountain  
-    [ ] Burnaby Tab  
-    [ ] Vernon Tab  
-  [ ] Rest of Canada - main tabs  
-    [ ] Alberta Tab  
+    * [ ] Burnaby Tab  
+    * [ ] Vernon Tab  
+  * [ ] Rest of Canada - main tabs  
+    * [ ] Alberta Tab  
       [ ] Medicine Hat SD  
-    [ ] Ontario Tab  
+    * [ ] Ontario Tab  
       [ ] Ottawa Carleton School Board  
-    [ ] Quebec Tab  
+    * [ ] Quebec Tab  
       [ ] Eastern Township  
-    [ ] Newfoundland and Labrador  
+    * [ ] Newfoundland and Labrador  
       [ ] Newfoundland and Labrador NISEP  
-    [ ] New Brunswick  
+    * [ ] New Brunswick  
       [ ] New Brunswick French International Student Program  
 
-[x] add full page for why study abroad  
-[ ] content for above full page  
-[x] add 'captions' to other homepage images (see NZ)  
-[ ] footer with social links  
-[x] copy footer to all pages  
+* [x] add full page for why study abroad  
+* [ ] content for above full page  
+* [x] add 'captions' to other homepage images (see NZ)  
+* [ ] footer with social links  
+* [x] copy footer to all pages  
   
-[ ] _form!_  
-[ ] db  
-[ ] format images  
-[ ] hover/links on home location images and headers - fix responsiveness of text  
+* [ ] _form!_  
+* [ ] db  
+* [ ] format images  
+* [ ] hover/links on home location images and headers - fix responsiveness of text  
   
 ## It looks like we will need an API to send the emails
 
