@@ -17,7 +17,7 @@
 | 9-4-19        | 4             |
 | 9-12-19       | 2             |
 | 9-14-19       | 2             |
-| 9-21-19       |               |
+| 9-21-19       | 7             |
 
 ## Notes/ToDo
 
@@ -42,11 +42,14 @@
   * [ ]add new card images  
 
 * [ ] _Canada_  
-  * [ ] tabbed layout - main  
-  * [ ] tabbed layout - BC  
+  * [ ] FIX tabbed layout for media/small screens
+  * [x] unify styles with NZ (icons/paragraphs)  
+  * [x] dynamic province map  
+  * [x] tabbed layout - main  
+  * [x] tabbed layout - BC  
   * [ ] indiv. schools: BC  
     * [ ] Vancouver Island Tab  
-      * [ ] Gulf  
+      * [x] Gulf  
       * [ ] Qualicum  
       * [ ] Sooke  
     * [ ] Vancouver Tab  

@@ -306,6 +306,12 @@ a.nav-link:hover {
 .directLinks button a:hover {
   color: #007bff;
 }
+
+/* Map on Canada page */
+#provinceMap {
+  width: 50%;
+  height: auto;
+}
 /* Canada Tabbed Content */
 
 /* Style the tab */
@@ -399,5 +405,9 @@ a.nav-link:hover {
   .countryCard,
   .countryCardImg {
     position: inherit;
+  }
+  .tab, .tab2 {
+    overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   }
 }
