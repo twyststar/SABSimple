@@ -393,7 +393,7 @@ a.nav-link:hover {
 }
 
 /* Class to hide USA until we get more schools there */
-.hideUsa {
+.  {
   display: none;
 }
 
