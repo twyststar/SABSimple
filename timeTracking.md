@@ -18,6 +18,10 @@
 | 9-12-19       | 2             |
 | 9-14-19       | 2             |
 | 9-21-19       | 7             |
+| 9-23-19       | 2             |
+| 9-26-19       | 2             |
+| 9-27-19       | 3             |
+
 
 ## Notes/ToDo
 
@@ -48,28 +52,29 @@
   * [x] tabbed layout - main  
   * [x] tabbed layout - BC  
   * [ ] indiv. schools: BC  
-    * [ ] Vancouver Island Tab  
+    * [x] Vancouver Island Tab  
       * [x] Gulf  
-      * [ ] Qualicum  
-      * [ ] Sooke  
-    * [ ] Vancouver Tab  
-      * [ ] Maple Ridge/Pitt Meadows  
-      * [ ] Richmond  
-      * [ ] Rocky Mountain  
-    * [ ] Burnaby Tab  
-    * [ ] Vernon Tab  
+      * [x] Qualicum  
+      * [x] Sooke  
+    * [x] Vancouver Tab  
+      * [x] Maple Ridge/Pitt Meadows  
+      * [x] Richmond  
+      * [x] Rocky Mountain  
+    * [x] Burnaby Tab  
+    * [x] Delta Tab  
+    * [x] Vernon Tab  
   * [ ] Rest of Canada - main tabs  
-    * [ ] Alberta Tab  
+    * [x] Alberta Tab  
       * [ ] Medicine Hat SD  
-    * [ ] Ontario Tab  
+    * [x] Ontario Tab  
       * [ ] Ottawa Carleton School Board  
-    * [ ] Quebec Tab  
+    * [x] Quebec Tab  
       * [ ] Eastern Township  
-    * [ ] Newfoundland and Labrador  
+    * [x] Newfoundland and Labrador  
       * [ ] Newfoundland and Labrador NISEP  
-    * [ ] New Brunswick  
+    * [x] New Brunswick  
       * [ ] New Brunswick French International Student Program  
-
+* [ ] add videos to learn more sections where available - ||||
 * [x] add full page for why study abroad  
 * [ ] content for above full page  
 * [x] add 'captions' to other homepage images (see NZ)  
