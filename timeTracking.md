@@ -74,7 +74,9 @@
       * [ ] Newfoundland and Labrador NISEP  
     * [x] New Brunswick  
       * [ ] New Brunswick French International Student Program  
+* [ ] video responsiveness  
 * [ ] add videos to learn more sections where available - ||||
+* [ ] add brochures to learn more sections where available
 * [x] add full page for why study abroad  
 * [ ] content for above full page  
 * [x] add 'captions' to other homepage images (see NZ)  

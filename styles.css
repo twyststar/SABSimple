@@ -95,6 +95,7 @@ a.nav-link:hover {
 
 .card-body {
   padding: 5% 7%;
+  width: 100%;
 }
 
 .articleImgOne {
@@ -399,6 +400,15 @@ a.nav-link:hover {
 
 /* Responsive styles/media queries not handled by Bootstrap/Flex */
 @media screen and (max-width: 550px) {
+  .directLinks iframe {
+    width: 100%;
+  }
+  .schoolIcon {
+    margin-left: 0;
+  }
+  .card-head {
+    text-align: center;
+  }
   .navbar-brand img {
     width: 80vw;
   }
