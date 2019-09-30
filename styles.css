@@ -221,6 +221,10 @@ a.nav-link:hover {
   transform: scale(1.5);
 }
 
+.card-head {
+  text-align: center;
+}
+
 /* studying abroad page specific */
 .why-articles {
   display: flex;
@@ -260,7 +264,7 @@ a.nav-link:hover {
 .schoolIcon {
   height: 50px;
   width: auto;
-  margin-left: 48%;
+  
 }
 
 .schoolAccordion {
@@ -403,6 +407,7 @@ a.nav-link:hover {
   .directLinks iframe {
     width: 100%;
   }
+
   .schoolIcon {
     margin-left: 0;
   }
