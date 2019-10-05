@@ -1,7 +1,13 @@
 @font-face {
-    font-family: LeagueSpartan;
-    src: url(/league-spartan-master/_webfonts/leaguespartan-bold.woff);
-    font-weight: 100;
+    font-family: 'League Spartan';
+    src: url('leaguespartan-bold.eot');
+    src: url('leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('leaguespartan-bold.woff2') format('woff2'),
+         url('leaguespartan-bold.ttf') format('truetype'),
+         url('leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
 }
 body {
   background-color: #e9ecef;
