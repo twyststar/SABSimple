@@ -412,8 +412,14 @@ a.nav-link:hover {
   background-color: white;
 }
 
-/* Class to hide USA until we get more schools there */
-.  {
+/* Fees tables - most CSS was added via exporting google doc to html and is on the fees page */
+.footnotes {
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+/* Class to hide things until we get more infoe */
+.tempHide{
   display: none;
 }
 
