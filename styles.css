@@ -415,8 +415,8 @@ a.nav-link:hover {
 /* Fees tables - most CSS was added via exporting google doc to html and is on the fees page */
 .footnotes {
   text-align: left;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin: auto;
+  width: 50%;
 }
 /* Class to hide things until we get more infoe */
 .tempHide{
