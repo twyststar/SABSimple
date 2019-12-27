@@ -418,7 +418,12 @@ a.nav-link:hover {
   margin: auto;
   width: 50%;
 }
-/* Class to hide things until we get more infoe */
+
+/* Agents page*/
+.largeP {
+  font-size: 1em;
+}
+/* Class to hide things until we get more info */
 .tempHide{
   display: none;
 }
@@ -447,3 +452,11 @@ a.nav-link:hover {
   -webkit-overflow-scrolling: touch;
   }
 }
+
+@media screen and (min-width: 992px) {
+  .headerScroll .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: 1.5rem;
+}
+}
+
