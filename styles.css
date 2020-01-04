@@ -188,8 +188,13 @@ a.nav-link:hover {
 .accordionShow .flex-half div {
   padding: 3%;
 }
+
+.accordionShow .flex-half div p {
+  margin-right: 2%;
+}
 .cardImageHalf {
-  max-width: 375px;
+  height: 250px;
+  width: 370px;
   float:right;
 }
 
