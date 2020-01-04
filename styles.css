@@ -185,6 +185,11 @@ a.nav-link:hover {
   align-content: space-between;
 }
 
+.cardImageHalf {
+  max-width: 200px;
+  float:right;
+}
+
 /* Footer */
 
 .footer {
