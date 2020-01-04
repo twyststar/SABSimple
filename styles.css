@@ -185,8 +185,11 @@ a.nav-link:hover {
   align-content: space-between;
 }
 
+.accordionShow .flex-half div {
+  padding: 3%;
+}
 .cardImageHalf {
-  max-width: 200px;
+  max-width: 400px;
   float:right;
 }
 
@@ -455,6 +458,13 @@ a.nav-link:hover {
   .tab, .tab2 {
     overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+  }
+  .cardImageHalf {
+    max-width: 200px;
+    float:none;
+  }
+  .accordionShow .flex-half {
+    display: block;
   }
 }
 
