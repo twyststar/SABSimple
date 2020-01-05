@@ -198,6 +198,16 @@ a.nav-link:hover {
   float:right;
 }
 
+.schoolTitle {
+  font-size: 1.1em;
+  color: #0a3170;
+}
+
+.programsLabel {
+  font-weight: bold;
+  color: #0a3170;
+}
+
 /* Footer */
 
 .footer {
