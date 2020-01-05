@@ -183,6 +183,7 @@ a.nav-link:hover {
 .flex-half * {
   flex-direction: column;
   align-content: space-between;
+  flex: 1;
 }
 
 .accordionShow .flex-half div {
