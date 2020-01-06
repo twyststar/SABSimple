@@ -148,7 +148,7 @@
     <img id="provinceMap" src="images/blankCanadaMap.png" alt="simple map of canada">
   </div>
   <div class="contentPadded">
-    <!-- Tab links -->
+  <!-- Tab links navigation-->
     <div class="tab">
       <button class="tablinks" onclick="openArea(event, 'BritishColumbia')">British Columbia</button>
       <button class="tablinks" onclick="openArea(event, 'Alberta')">Alberta</button>
@@ -161,12 +161,11 @@
 <!-- BC Tab content -->
     <div id="BritishColumbia" class="tabcontent">
       <h2 class="slogan">British Columbia Schools</h2>
+  <!-- BC Subtabs navigation -->
       <div class="tab2">
         <button class="tablinks2" onclick="openSubArea(event, 'VancouverIsland')">Vancouver Island</button>
         <button class="tablinks2" onclick="openSubArea(event, 'Vancouver')">Vancouver</button>
         <button class="tablinks2" onclick="openSubArea(event, 'OtherBC')">Other BC Locations</button>
-        <!-- <button class="tablinks2" onclick="openSubArea(event, 'RockyMountain')">Rocky Mountain School District</button>
-        <button class="tablinks2" onclick="openSubArea(event, 'Vernon')">Vernon</button> -->
       </div>
 
   <!-- Vancouver Island Sub-Tab -->
@@ -1455,9 +1454,98 @@
 
       </div>
 
-  <!-- Maple Ridge/Pitt MEadows Sub Tab -->
+  <!-- Other BC Locations Sub Tab -->
       <div id="OtherBC" class="tabcontent2">
         <h3 class="slogan">Other BC Locations</h3>
+    <!-- Abbotsford SD -->
+        <div class="card countryCard">
+          <div class="card-body">
+            <div class="card-head">
+              <a target="_blank" href="https://www.vernoninternational.ca/"><img src="images/abbotsfordLogo.png"
+                  alt="Abbortsford School District Logo" class="schoolIcon"></a>
+              <h3 class="card-title mb-5 mt-3 text-center">Abbotsford School District</h3>
+            </div>
+            <p><em>The city of Abbotsford is located in the heart of the Fraser Valley, and is affectionately known as the ‘City in the Country’. We have an international airport for easy travel, and a local university that works closely with each of our high schools. Abbotsford, one of the fastest growing cities in Canada, has all the
+            amenities such as International restaurants ,modern hospital, theatre, a vibrant downtown and brand new mega-mall. 3
+            large recreation centres, ice rinks, swimming pools, parks, climbing gym, tennis courts, skateboard parks, riding
+            trails.
+              </em></p>
+            <div class="introImg mt-5"><img src="images/abbotsfordCover.png" alt="View of Abbotsford with town and mountains">
+            </div>
+            <p class="text-center mt-5"><button class="schoolAccordion">Learn More</button></p>
+            <div class="accordionShow">
+              <p><em>Looking for an authentic Canadian school experience? Get a world-class education and learn English while
+                  attending
+                  school in Abbotsford, British Columbia (BC), near Vancouver. International students enrolled in secondary, middle or
+                  elementary schools in Abbotsford learn English through immersion, and get to experience:</em></p>
+              <li>
+                <li>Authentic Canadian culture</li>
+                <li>Excellent international student services and support</li>
+                <li>Carefully screened home stay placement with Canadian families</li>
+                <li>Specialty academic programs</li>
+                <li>A variety of extracurricular activities and clubs</li>
+              </li>
+              <p><em>Abbotsford features the best of Canada, including great schools (Abbotsford School District consistently has graduation
+              and test results scoring above the provincial average), a mild climate, beautiful natural surroundings with lots of
+              outdoor and leisure activities, friendly neighbourhoods, and quality health care.</em></p>
+              <h3 class="card-title mb-5 mt-3 text-center">Abbotsford Schools</h3>
+              <hr>
+              <!-- Richmond Schools -->
+              <p class="schoolTitle text-center"><em>ALLAN ROY (A.R.) MACNEILL SECONDARY</em></p>
+              <div class="flex-half">
+                <div>
+                  <div>
+                    <p class="programsLabel"><em>
+                        Unique Programs:
+                      </em></p>
+                    <ul>
+                      <li>Advanced Placement</li>
+                      <li>Incentive Outdoor Program (Gr. 8-10)</li>
+                      <li>Fine Arts, Design and Media</li>
+                      <li>Citizenship/Leadership</li>
+                      <li>Computer Programming</li>
+                      <li>Guitar</li>
+                      <li>Car and Concepts Fabrication</li>
+                      <li>Law</li>
+                      <li>Robotics</li>
+                    </ul>
+                  </div>
+                </div>
+                <div>
+                  <img src="images/arMacniell.png" class="cardImageHalf" alt="">
+                </div>
+              </div>
+              <div>
+                <p class="programsLabel"><em>School Sports:</em></p>
+                <p><em>Basketball, Soccer, Volleyball, Cross Country Running, Swimming, Table Tennis, Track & Field, Ultimate Frisbee,
+                    Golf</em></p>
+              </div>
+              <div>
+                <p class="programsLabel"><em>Music Options:</em></p>
+                <p><em>Band, Jazz Band, Guitar</em></p>
+              </div>
+              <div>
+                <p class="programsLabel"><em>School Clubs:</em></p>
+                <p><em>Animal Rescue Club, Anime/Japanese Cultural Club, Art Club, Business Club, Chess Club, Drama Club, Dance Team,
+                    E-Sports Club, Green Team, Running Club, Ski & Snowboard Club, Student Council</em></p>
+              </div>
+              <hr style="width: 50%;">
+              <div class="directLinks text-center mt-5">
+                <iframe width="450" height="300" src="https://www.youtube.com/embed/E0JnMVfscTs" frameborder="0"
+                  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+                <br>
+        
+                <a class="text-center" target="_blank" href="https://www.vernoninternational.ca/">Visit Vernon School
+                  District's
+                  Website</a>
+                <p class="text-center mt-5"><button><a class="text-center" href="contact.html">Contact Us for more
+                      information!</a></button></p>
+              </div>
+            </div>
+          </div>
+        </div>
+    <!-- Maple Ridge/Pitt Meadows -->
         <div class="card countryCard">
           <div class="card-body">
             <div class="card-head">
@@ -1511,6 +1599,7 @@
             </div>
           </div>
         </div>
+    <!-- Rocky Mountain SD -->
         <div class="card countryCard">
           <div class="card-body">
             <div class="card-head">
@@ -1559,6 +1648,7 @@
             </div>
           </div>
         </div>
+    <!-- Vernon SD -->
         <div class="card countryCard">
           <div class="card-body">
             <div class="card-head">
@@ -1617,18 +1707,6 @@
         </div>
       </div>
 
-  <!-- Rocky Mountain Sub Tab-->
-      <!-- <div id="RockyMountain" class="tabcontent2">
-        <h3 class="slogan">Rock Mountain School District</h3>
-        
-      </div> -->
-
-  <!-- Vernon Sub-Tab -->
-      <!-- <div id="Vernon" class="tabcontent2">
-        <h3 class="slogan">Vernon Schools</h3>
-        
-      </div>
-    </div> -->
 
 <!-- Alberta Tab content -->
     <div id="Alberta" class="tabcontent">
