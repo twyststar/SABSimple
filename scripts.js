@@ -76,6 +76,6 @@ if (video_wrapper.length) {
     var url = $(this).attr('dataurl');
     /* Dynamically inject the iframe on demand of the user.
      Pull the youtube url from the data attribute on the wrapper element. */
-    video_wrapper.html('<iframe width="450" height="300" frameborder="0" allow = "accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src="' + url + '"></iframe >');
+    $(this).html('<iframe width="450" height="300" frameborder="0" allow = "accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src="' + url + '"></iframe >');
   });
 }
