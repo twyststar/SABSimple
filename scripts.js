@@ -66,3 +66,16 @@ function openSubArea(evt, areaName) {
   // document.getElementById(areaName).style.display = "block";
   evt.currentTarget.className += " active2";
 }
+
+//Load and play videos on click instead of on page load
+var video_wrapper = $('.video-container');
+//  Check to see if youtube wrapper exists
+if (video_wrapper.length) {
+  // If user clicks on the video wrapper load the video.
+  $('.video-container').on('click', function () {
+    var url = $(this).attr('dataurl');
+    /* Dynamically inject the iframe on demand of the user.
+     Pull the youtube url from the data attribute on the wrapper element. */
+    video_wrapper.html('<iframe width="450" height="300" frameborder="0" allow = "accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src="' + url + '"></iframe >');
+  });
+}
