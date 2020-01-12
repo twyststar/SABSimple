@@ -35,75 +35,49 @@
 | 01-11-20      |              |
 
 
-## Notes/ToDo
 
-* Look into fade effect for the lower parts of the front page mini articles
-* Hover effect on pic links on index is odd on mobile
-
-* [x] copy header nav to all pages  
-  * [x] home  
-  * [x] about  
-  * [x] contact  
-  * [x] ca  
-  * [x] nz  
-  * [x] usa  
-  * [x] studyingAbroad  
-* [x] make active link in small header noticeable  
-
-
-* [x] _USA - HIDE USA FOR NOW_  
-  * [x] add school cards/images  
-  * [x] ~*fix* school card images~ images not consistent in clarity  
-  * [x] swap images to icons  
-  * [ ]add new card images  
-
-* [ ] _Canada_  
-  * [ ] FIX tabbed layout for media/small screens
-  * [x] unify styles with NZ (icons/paragraphs)  
-  * [x] dynamic province map  
-  * [x] tabbed layout - main  
-  * [x] tabbed layout - BC  
-  * [ ] indiv. schools: BC  
-    * [x] Vancouver Island Tab  
-      * [x] Gulf  
-      * [x] Qualicum  
-      * [x] Sooke  
-    * [x] Vancouver Tab  
-      * [x] Maple Ridge/Pitt Meadows  
-      * [x] Richmond  
-      * [x] Rocky Mountain  
-    * [x] Burnaby Tab  
-    * [x] Delta Tab  
-    * [x] Vernon Tab  
-  * [ ] Rest of Canada - main tabs  
-    * [x] Alberta Tab  
-      * [ ] Medicine Hat SD  
-    * [x] Ontario Tab  
-      * [ ] Ottawa Carleton School Board  
-    * [x] Quebec Tab  
-      * [ ] Eastern Township  
-    * [x] Newfoundland and Labrador  
-      * [ ] Newfoundland and Labrador NISEP  
-    * [x] New Brunswick  
-      * [ ] New Brunswick French International Student Program  
-* [ ] video responsiveness  
-* [ ] add videos to learn more sections where available - ||||
-* [ ] add brochures to learn more sections where available
-* [x] add full page for why study abroad  
-* [ ] content for above full page  
-* [x] add 'captions' to other homepage images (see NZ)  
-* [ ] footer with social links  
-* [x] copy footer to all pages  
-  
-* [ ] _form!_  
-* [ ] db  
-* [ ] format images  
-* [ ] hover/links on home location images and headers - fix responsiveness of text  
-  
 ## It looks like we will need an API to send the emails
 
-### ToDos and Notes for the API/Mail Service
+
+### Notes
 
 * Plain HTML/CSS/JS/Jquery cannot send mail, it can only provide a mailto link - this will only open a user's mail service and allow them to send a free form email. It fails if the settings on your device don't have a default mail service, and it will not allow us to gather the information we want or (possibly) send a from reply email.
 * Because of the above, I will build out a nodeJS service that will run separately to handle parsing form input and sending out an email. (An API)
 * Current plan is to use NodeMailer and heroku.
+
+_Current status - local api has successfully delivered a test email._
+
+* Need to build out form, format email, and connect the information to the api.
+* Need to push API live after the above
+* Currently finishing out the content for Canada before returning to this
+
+---
+
+* Refactor of existing districts to show individual schools (or top schools in the case of more than ~10)
+  * [x]- BC complete
+
+* Refactor videos for load on click to speed up page load
+  * [x]- Existing videos for all BC are refactored to load on click. Function tested, will be used going forward.
+
+#### ToDo FOr MVP(minimum viable product/ok to go live for users)
+
+
+* Complete remaining sections/districts (details in emails)
+
+* API (brief notes above)
+
+* Set up USA/NZ with coming soon messages
+
+* Build a 'back' or 'close' type button to ease navigation from an open district
+
+* A bunch of small style/usability fixes, detailed in my notes
+
+#### Stretch/future possible additions
+
+* Format images to uniform size to ease load times (this will take some time in Photoshop - the files themselves need adjusting in order to change load)
+
+* Hook app to a database to track contacts
+
+* Find cools ways to create a 'favorite' or 'compare' list of schools/districts - _this would be a big project, likely requiring a pretty large refactor_
+
+* If db implemented, create admin dashboard for ease of information visibility - _this would be a separate app, for Aunt Alex's use, connected to the database_
