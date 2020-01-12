@@ -38,9 +38,6 @@
 
 ## It looks like we will need an API to send the emails
 
-
-### Notes
-
 * Plain HTML/CSS/JS/Jquery cannot send mail, it can only provide a mailto link - this will only open a user's mail service and allow them to send a free form email. It fails if the settings on your device don't have a default mail service, and it will not allow us to gather the information we want or (possibly) send a from reply email.
 * Because of the above, I will build out a nodeJS service that will run separately to handle parsing form input and sending out an email. (An API)
 * Current plan is to use NodeMailer and heroku.
