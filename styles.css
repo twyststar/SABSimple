@@ -199,6 +199,11 @@ a.nav-link:hover {
   float:right;
 }
 
+.cardImageCenter {
+  height: 250px;
+  width: 370px;
+}
+
 .schoolTitle {
   font-size: 1.1em;
   color: #0a3170;
@@ -502,7 +507,7 @@ a.nav-link:hover {
     overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   }
-  .cardImageHalf {
+  .cardImageHalf, .cardImageCenter {
     max-width: 200px;
     float:none;
   }
