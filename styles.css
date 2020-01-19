@@ -367,6 +367,10 @@ a.nav-link:hover {
   font-size: 1.2em;
 }
 
+.countryCard .introImg img {
+  max-height: 375px;
+  width: 100%;
+}
 .introImg .compact-image {
   max-height: 375px;
   width: auto;
