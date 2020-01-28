@@ -207,6 +207,8 @@ a.nav-link:hover {
 .schoolTitle {
   font-size: 1.1em;
   color: #0a3170;
+  font-weight: bold;
+  margin-top: 2em;
 }
 
 .programsLabel {
